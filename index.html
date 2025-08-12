@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Kadiri Kofoworola - Portfolio</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<!-- header -->
+		<header>
+			<button id="theme-switch">
+				<!-- dark mode -->
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					height="24px"
+					viewBox="0 -960 960 960"
+					width="24px"
+					fill="#1f1f1f">
+					<path
+						d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z" />
+				</svg>
+
+				<!-- light mode -->
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					height="24px"
+					viewBox="0 -960 960 960"
+					width="24px"
+					fill="#1f1f1f">
+					<path
+						d="M480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z" />
+				</svg>
+			</button>
+			<div class="container">
+				<h1>Kadiri Muheebat Kofoworola</h1>
+				<p class="title">Mobile Application Developer (React Native)</p>
+				<p class="contact">
+					Ikorodu, Lagos |
+					<a href="tel:+2349130990557">+234 913 099 0557</a> |
+					<a href="mailto:kadirimuheebat@gmail.com">kadirimuheebat@gmail.com</a>
+					|
+					<a href="https://github.com/muheebah005" target="_blank">GitHub</a>
+				</p>
+
+				<!-- navbar -->
+				<nav>
+					<a href="#about">About</a>
+					<a href="#skills">Skills</a>
+					<a href="#projects">Projects</a>
+					<a href="#education">Education</a>
+					<a href="#gallery">Gallery</a>
+					<a href="#contact">Contacts</a>
+				</nav>
+			</div>
+		</header>
+
+		<!-- about -->
+		<section id="about" class="container">
+			<h2>About Me</h2>
+			<p>
+				Passionate and detail-oriented React Native Developer with a strong
+				background in mobile application development. Proven experience building
+				cross-platform apps from the ground up, including e-commerce platforms
+				and Fintech clones with interactive UI/UX, state management and backend
+				integration. Enthusiastic about user-focused design, performance
+				optimization and continuous learning. Now seeking a frontend-focused
+				mobile development role to contribute and grow in a dynamic tech
+				environment.
+			</p>
+		</section>
+
+		<!-- skills -->
+		<section id="skills" class="container">
+			<h2>Core Skills</h2>
+			<ul>
+				<li>Languages: JavaScript, Java</li>
+				<li>Framework: React Native, Spring Boot</li>
+				<li>Tools: Git, Postman, VS Code, Android Studio, Expo</li>
+				<li>Databases: MySQL, PostgreSQL</li>
+				<li>Problem-Solving</li>
+				<li>Time management</li>
+				<li>Adaptability in remote work environment</li>
+				<li>Team collaboration</li>
+				<li>Strategic Thinking</li>
+			</ul>
+		</section>
+
+		<!-- projects -->
+		<section id="projects" class="container">
+			<h2>Personal Projects</h2>
+
+			<div class="projects">
+				<h3>OPay Clone (React Native)</h3>
+				<p><strong>Features:</strong></p>
+				<ul>
+					<li>
+						Authentication and onboarding flows (Login, Signup, Splash Screens)
+					</li>
+					<li>
+						Home & Dashboard with quick access to wallet, transfers, airtime
+					</li>
+					<li>
+						Wallet and transaction screens to view balances, send and receive
+						funds
+					</li>
+					<li>Performance-optimized reward screens</li>
+					<li>
+						Airtime and bill payment features with cashback feedback logic
+					</li>
+					<li>Responsive layout adapted to various screen sizes</li>
+				</ul>
+				<p><strong>Highlights:</strong></p>
+				<ul>
+					<li>Strong focus on UI polish and animation</li>
+					<li>Designed custom components and modular structure</li>
+					<li>Practiced responsive layout techniques across devices</li>
+				</ul>
+			</div>
+
+			<div class="projects">
+				<h3>E-commerce Mobile App (React Native + Spring Boot)</h3>
+				<p><strong>Features:</strong></p>
+				<ul>
+					<li>User login/signup</li>
+					<li>Home Screen with product display</li>
+					<li>Product details screen with "Add to Cart"</li>
+					<li>Cart & Checkout flow</li>
+					<li>Admin panel for adding/updating products</li>
+					<li>Backend authentication, cart logic with unique cartId</li>
+				</ul>
+				<p><strong>Highlights:</strong></p>
+				<ul>
+					<li>Integrated Spring Boot backend with mobile frontend</li>
+					<li>Used Redux Toolkit for state management</li>
+					<li>
+						Applied performance optimization using
+						`react-native-virtualized-view`
+					</li>
+				</ul>
+			</div>
+
+			<div class="projects">
+				<h3>Expense Tracker App (React Native)</h3>
+				<p><strong>Feature:</strong></p>
+				<ul>
+					<li>Add, View and categorize expenses</li>
+					<li>Dynamic bar chart to visualize spending</li>
+					<li>Category filters to refine displayed data</li>
+					<li>Expenses stored with AsyncStorage for local persistence</li>
+				</ul>
+				<p><strong>Highlights:</strong></p>
+				<ul>
+					<li>Real-time chart updates when new expenses are added</li>
+					<li>Clean UI with responsive layout</li>
+				</ul>
+			</div>
+
+			<div class="projects">
+				<h3>Task Manager App (React Native + Expo)</h3>
+				<p><strong>Features:</strong></p>
+				<ul>
+					<li>Add, edit, delete, and complete daily tasks</li>
+					<li>Assign priority levels (High, Medium, Low)</li>
+					<li>Tooltip-based priority explanation</li>
+					<li>Local notification for task reminders</li>
+				</ul>
+				<p><strong>Highlights:</strong></p>
+				<ul>
+					<li>
+						Tasks toggle between complete/incomplete with strikethrough styling
+					</li>
+					<li>Validates task input to prevent empty entries</li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- education -->
+		<section id="education" class="container">
+			<h2>Education</h2>
+			<p>Bachelor of Science in Chemistry Education</p>
+			<p>Lagos State University - Graduated February 2024</p>
+		</section>
+
+		<!-- gallery -->
+		<section id="gallery" class="container">
+			<h2>Gallery</h2>
+			<div class="gallery">
+				<img
+					src="images/b7af35d8-e94c-4e4c-abb7-5013f0e36bd5.jpg"
+					alt="profile picture" />
+				<img src="images/IMG_5496.jpg" alt="friend picture" />
+				<img src="images/IMG_5486.jpg" alt="friend picture" />
+				<img src="images/IMG_5488.jpg" alt="friend picture" />
+				<img
+					src="images/1d839097-386f-48f8-a015-9d12d4d5905e.jpg"
+					alt="friend picture" />
+			</div>
+		</section>
+
+		<!-- contact -->
+		<section id="contact" class="container">
+			<p>
+				Email:
+				<a href="mailto:kadirimuheebat@gmail.com">kadirimuheebat@gmail.com</a>
+			</p>
+			<p>Phone: <a href="tel:+2349130990557">+234 913 099 0557</a></p>
+			<p>
+				GitHub:
+				<a href="https://github.com/muheebah005"
+					>https://github.com/muheebah005</a
+				>
+			</p>
+			<p>
+				LinkedIn:
+				<a
+					href="https://www.linkedin.com/in/kadiri-muheebat-b29b6122a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+					>Kadiri Muheebat</a
+				>
+			</p>
+		</section>
+
+		<!-- footer -->
+		<footer class="container">
+			<p>©<span id="year">2025</span> Kofoworola Kadiri</p>
+		</footer>
+
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
